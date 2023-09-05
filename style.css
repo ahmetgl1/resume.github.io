@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(-50deg, #FFBD59 50%, #ffffff 50%); 
+    background-size: 100% 100%;
+    font-family: 'Times New Roman', Times, serif;
+font-weight: 600;
+}
+
+#page-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #3b423e; 
+    color: white; 
+  
+}
+.logo img {
+    width: 100px; 
+    height: auto;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    margin-right: 40px;
+   
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font: 15px ;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav ul li a:hover{
+    color: #FFBD59;
+    transition: ease 0.5s;
+}
+
+.login{
+margin-right: 40px;
+}
+.login a {
+    color: #fff;
+    text-decoration: none;
+    font: 15px ;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.login a:hover{
+    color: #FFBD59;
+    transition: ease 0.5s;
+}
+
+#container {
+   
+    padding: 50px;
+    text-align: center;
+   
+}
+
+.title-box {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#title {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#page-intro {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.title-box a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #FFBD59;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.title-box a:hover {
+    background: #1f1d1d;
+}
+
+span {
+    display: block;
+    font-size: 14px;
+    color: #1f1d1d;
+    margin-top: 10px;
+}
+.command-title{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    margin-top: 50px; 
+    display: inline-block; 
+}
+#command{
+    justify-content: center;
+    text-align: center;
+        
+}
+
+#person-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-top: -100px;
+  }
+
+  
+  #person-card img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+  .stars span {
+    color: #f5c61e;
+    font-size: 20px;
+  }
+  .command-title h2{
+    font-weight: bold;
+    font-size: 40px;
+    color: #444444;
+  }
+  .command-title p{
+    color: #707087;
+    font-weight: bolder;
+  }
+  
+  footer {
+    background-color: #181717;
+    color: #fff;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .contacts{
+    text-decoration: none;
+    margin: 0 20px;
+    justify-content: space-between;
+    
+   
+  }
+  .contacts h3{
+    text-align: center;
+  }
+  .contacts p{
+    margin-bottom: 10px;
+  }
+  .social-medias a{
+    text-decoration: none;
+    margin: 0 20px;
+    justify-content: space-between;
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  .links{
+    margin-right: 50px;
+  }
+  .links a{
+    color: #fff;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  .links ul  {
+    list-style: none; 
+  }
+  .links ul li{
+    margin-bottom: 10px;
+  }
+  /* respnsiveeee yapısı*/
+ 
